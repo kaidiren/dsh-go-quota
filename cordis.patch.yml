@@ -1,0 +1,5 @@
+# dsh-go-quota bundle patch：一行 host 半边，挂在 web profile 上。
+# 行名在 profile 自己的 node_modules 里解析（`dsh plugin --profile web add <path>` 安装）。
+- insert:
+    - id: go-quota
+      name: dsh-go-quota
